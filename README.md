@@ -2,55 +2,64 @@
 
 **Name:** Arvind  
 **Student ID:** 35817164  
-**Course:** Introduction to Server Environments and Architectures
+**Course:** Introduction to Server Environments and Architectures  
+**GitHub Repository:** https://github.com/aravind0504/BRG-28-labs
 
-## Lab Progress
+## 📋 Lab Progress Overview
 
-### ✅ Session 1a: Setting Up Linux
-- GitHub repository setup and documentation
-- Ubuntu installation in VMware
-- Basic Linux commands practice (pwd, ls, cd, mkdir, touch)
-- File system navigation and directory structure
+This repository documents my complete journey through the BRG-ISEA unit, covering all practical lab activities across 4 intensive sessions. Each lab includes screenshots, code, and reflective documentation.
 
-### ✅ Session 1b: Exploring Linux
-- Linux services management with systemctl
-- File permissions using chmod and chown
-- Searching filesystems with find and grep commands
-- Service status monitoring and control
+---
 
-### ✅ Session 2a: Total Cost of Ownership
-- AWS vs Azure cloud pricing comparison
-- TCO analysis for cloud vs on-premise infrastructure
-- Cost-benefit analysis for different deployment scenarios
+## 🖥️ Session 1a: Setting Up Linux
 
-### ✅ Session 2b: Cloud Services & Bash Scripting
-- AWS free tier account research
-- Bash script creation for system monitoring
-- Server automation scripting practice
+### Objectives
+- Establish GitHub repository for documentation
+- Install Ubuntu Linux environment in VMware
+- Practice fundamental command line operations
 
-### ✅ Session 3a: DNS & Certificates
-- DNS configuration and testing with nslookup, dig
-- Let's Encrypt Certbot installation and setup
-- SSL certificate research and verification process
+### Activities Completed
+- ✅ Created and configured GitHub repository
+- ✅ Installed Ubuntu 24.04 LTS in VMware Workstation
+- ✅ Practiced essential Linux commands: `pwd`, `ls`, `cd`, `mkdir`, `touch`
+- ✅ Learned Linux directory structure (`/etc`, `/var`, `/home`)
+- ✅ Used `man` pages for command documentation
 
-### ✅ Session 3b: Server Automation
-- Automated backup script creation
-- System monitoring scripts
-- Cron job scheduling for automated tasks
-- Log file management and monitoring
+### Technical Challenges
+- **VMware Compatibility**: Graphics driver issues requiring VMware Tools installation
+- **Installation Time**: Extended installation process due to virtualization overhead
+- **Guest-Host Integration**: Initial difficulties with copy-paste functionality
 
-### ✅ Session 4a: Additional Server Service
-- Docker container platform installation
-- Container service management
-- Hello-world container testing and verification
+### Evidence
+- Screenshots of Ubuntu installation process
+- Command output demonstrations
+- VMware configuration evidence
 
-## Repository Structure
-- `/screenshots/` - Evidence from all lab sessions
-- `/scripts/` - Automation and system scripts
-- `/configs/` - Configuration files
+### Skills Developed
+- Virtual machine configuration and management
+- Basic Linux command line proficiency
+- Documentation and version control practices
 
-## Technologies Used
-- Ubuntu Linux, VMware, Git, GitHub
-- AWS Cloud Services, Azure Cloud
-- Bash Scripting, Cron Jobs
-- Docker, Certbot, Nginx
+---
+
+## 🔧 Session 1b: Exploring Linux Systems
+
+### Objectives
+- Understand Linux service management
+- Master file permissions and ownership
+- Develop file system searching skills
+
+### Activities Completed
+- ✅ Managed system services using `systemctl`
+- ✅ Practiced file permissions with `chmod` and `chown`
+- ✅ Searched file systems using `find` and `grep` commands
+- ✅ Monitored service status and controlled service states
+
+### Commands Mastered
+```bash
+systemctl list-units --type=service
+systemctl start|stop|status [service]
+chmod 755 filename.sh
+chown user:group file.txt
+find /path -name "pattern"
+grep -r "search-term" /directory/
