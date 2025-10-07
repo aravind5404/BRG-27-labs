@@ -64,9 +64,3 @@ chown user:group file.txt
 find /path -name "pattern"
 grep -r "search-term" /directory/
 
-###Evidence
-Service management screenshots
-
-Permission modification examples
-
-File search operation results
