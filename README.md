@@ -3,7 +3,7 @@
 **Name:** Arvind  
 **Student ID:** 35817164  
 **Course:** Introduction to Server Environments and Architectures  
-**GitHub Repository:** https://github.com/aravind0504/BRG-28-labs
+**GitHub Repository:** https://github.com/aravind0504/BRG-27-labs
 
 ## 📋 Lab Progress Overview
 
