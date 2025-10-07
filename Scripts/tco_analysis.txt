@@ -1,0 +1,22 @@
+TCO ANALYSIS - AWS vs AZURE vs ON-PREMISE
+
+AWS FREE TIER:
+- $200 credit for new accounts
+- 750 hours of t2.micro monthly
+- After free tier: ~$8-10/month
+
+AZURE B1s INSTANCE:
+- $7.59/month (pay-as-you-go)
+- $5.11/month (1-year savings plan)
+- $3.42/month (3-year savings plan)
+- $200 credit for new accounts
+
+ON-PREMISE SERVER:
+- Hardware: $1500 one-time
+- Power: $20/month
+- Internet: $60/month
+- Maintenance: $80/month
+- Total 3-year cost: $6780
+
+CONCLUSION:
+Cloud services reduce initial costs and provide scalability.
