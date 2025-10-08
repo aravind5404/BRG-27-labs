@@ -1,6 +1,6 @@
 # BRG-ISEA Lab Portfolio
 
-**Name:** Arvind  
+**Name:** Aravind  
 **Student ID:** 35817164  
 **Course:** Introduction to Server Environments and Architectures  
 **GitHub Repository:** https://github.com/aravind0504/BRG-27-labs
